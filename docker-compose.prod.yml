@@ -90,7 +90,7 @@ services:
   # MICROSERVICIOS BACKEND (DESPLIEGUE AWS ECR)
   # ======================================================
   ms-barriodigital-catalog:
-    image: 726357411862.dkr.ecr.us-east-1.amazonaws.com/ms-barriodigital-catalog:latest
+    image: 879708223376.dkr.ecr.us-east-1.amazonaws.com/ms-barriodigital-catalog:latest
     container_name: barriodigital-catalog
     restart: always
     ports:
@@ -99,7 +99,7 @@ services:
       - barriodigital-network
 
   ms-barriodigital-requests:
-    image: 726357411862.dkr.ecr.us-east-1.amazonaws.com/ms-barriodigital-requests:latest
+    image: 879708223376.dkr.ecr.us-east-1.amazonaws.com/ms-barriodigital-requests:latest
     container_name: barriodigital-requests
     restart: always
     ports:
@@ -114,7 +114,7 @@ services:
       - barriodigital-network
 
   ms-barriodigital-notify:
-    image: 726357411862.dkr.ecr.us-east-1.amazonaws.com/ms-barriodigital-notify:latest
+    image: 879708223376.dkr.ecr.us-east-1.amazonaws.com/ms-barriodigital-notify:latest
     container_name: barriodigital-notify
     restart: always
     ports:
@@ -127,7 +127,7 @@ services:
       - barriodigital-network
 
   ms-barriodigital-audit:
-    image: 726357411862.dkr.ecr.us-east-1.amazonaws.com/ms-barriodigital-audit:latest
+    image: 879708223376.dkr.ecr.us-east-1.amazonaws.com/ms-barriodigital-audit:latest
     container_name: barriodigital-audit
     restart: always
     ports:
@@ -140,7 +140,7 @@ services:
       - barriodigital-network
 
   ms-barriodigital-report:
-    image: 726357411862.dkr.ecr.us-east-1.amazonaws.com/ms-barriodigital-report:latest
+    image: 879708223376.dkr.ecr.us-east-1.amazonaws.com/ms-barriodigital-report:latest
     container_name: barriodigital-report
     restart: always
     ports:
